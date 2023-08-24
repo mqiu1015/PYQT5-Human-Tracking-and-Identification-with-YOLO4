@@ -1,0 +1,29 @@
+
+# use pip install,  pay attention to the version of  '!!!!'  Some of them may be diffrent from mine, since we use different system or GPU
+#PyQt5 
+numpy==1.19.5     //!!!!
+Cython==0.29.23
+h5py==2.10.0       //!!!!
+Pillow==8.2.0
+six==1.16.0
+scipy==1.5.4
+opencv-python==4.5.1.48
+matplotlib==3.3.4
+tb-nightly==2.11.0a20220816
+future==0.18.2
+yacs== 0.1.8
+gdown==4.7.1
+flake8==5.0.4
+yapf==0.32.0
+isort==5.10.1
+imageio==2.9.0
+#TF version must not be >=2.0 of this code, 
+tensorflow==1.13.1        /!!!!
+tensorflow-gpu==1.13.1    //!!!!  If you have Higher GPU, not suitable on this code version, only CPU works, since TF is lower version.
+scikit-learn==0.24.1
+
+# use conda install,   
+torch==1.10.2 //conda install
+torchvision== 0.11.3 //conda install
+# keras==2.4.0
+keras==2.2.4        //!!!!
